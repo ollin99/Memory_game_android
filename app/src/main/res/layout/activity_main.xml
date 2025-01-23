@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1F8962">
+
+    <!-- Första delen för titeln och highscores -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pixel Memory Game"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:id="@+id/highscore_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Highscores:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/highscore_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lätt nivå: -"
+            />
+
+        <TextView
+            android:id="@+id/highscore_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mellan nivå: -"
+            />
+
+        <TextView
+            android:id="@+id/highscore_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Svår nivå: -"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+
+        <Button
+            android:id="@+id/btn_easy"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Lätt"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/btn_medium"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Mellan"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/btn_hard"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Svår"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
